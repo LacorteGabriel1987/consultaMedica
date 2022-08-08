@@ -1,0 +1,18 @@
+.container{
+    border: 1px solid rgb(194, 186, 186);
+    background-color: rgb(248, 245, 241);
+    width: 800px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 90px 0px 150px;
+    padding-left: 200px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 300%;   
+    text-align: center;
+    padding: 10px;
+    margin-left: 90px;    
+}
