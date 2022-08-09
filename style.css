@@ -5,7 +5,16 @@
     display:flex;
     flex-wrap: wrap;
     margin: 0 90px 0px 150px;
-    padding-left: 200px;
+    padding: 40px 0px 0px 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.title{
+    color:rgb(137, 216, 117);
+    
+}
+.subtitle{
+    color:rgb(19, 133, 29);
+    margin-top: -30px;
 }
 
 .logo{
@@ -15,4 +24,58 @@
     text-align: center;
     padding: 10px;
     margin-left: 90px;    
+}
+
+.banner{
+  display:flex;
+  justify-content:baseline;
+  margin-top: 40px;
+  padding-left: 140px;
+}
+
+li{
+border: 1px solid black;
+width: 300px;
+height: 300px;
+border-radius: 20px;
+
+}
+
+li, .frase {
+    text-align: center;    
+}
+
+.one{
+    background-color: rgb(186, 199, 9);
+    border-radius: 20px;
+    border: none;
+    margin:20px;
+    
+}
+.two{
+    background-color: rgba(248, 113, 35, 0.986);
+    border-radius: 20px;
+    border: none;
+    margin:20px;
+}
+
+.tree{
+    background-color: rgba(150, 6, 119, 0.884);
+    border-radius: 20px;
+    border: none;
+    margin:20px;
+}
+
+li, p{
+    color:white;
+    font-weight: bold;
+}
+
+.frase{
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.grid{
+    padding-top: 20px;    
 }
