@@ -1,90 +1,123 @@
 /* cabeçalho */
-.container{
+.container {
     border: 1px solid rgb(194, 186, 186);
     background-color: rgb(248, 245, 241);
     width: 800px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     margin: 0 90px 0px 150px;
     padding: 40px 0px 0px 200px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
 }
-.title{
-    color:rgb(137, 216, 117);    
+
+.title {
+    color: rgb(137, 216, 117);
 }
-.subtitle{
-    color:rgb(19, 133, 29);
+
+.subtitle {
+    color: rgb(19, 133, 29);
     margin-top: -30px;
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 100px;
-    border-radius: 300%;   
+    border-radius: 300%;
     text-align: center;
     padding: 10px;
-    margin-left: 90px;    
+    margin-left: 90px;
 }
+
 /* Os três Banner centrais */
 
-.banner{
-    display:flex;
-    justify-content:baseline;
+.banner {
+    display: flex;
+    justify-content: baseline;
     margin-top: 40px;
     padding-left: 140px;
 }
-li{
-border: 1px solid black;
-height: 60vh;
-object-fit: cover;
-border-radius: 20px;
-width: 300px;
+
+li {
+    border: 1px solid black;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 300px;
 }
 
-li, .frase {
+li,.frase {
     text-align: center;
 }
-.one{
+
+.one {
     background-color: rgb(186, 199, 9);
     border-radius: 20px;
     border: none;
-    margin:20px;    
+    margin: 20px;
 }
-.two{
+
+.two {
     background-color: rgba(248, 113, 35, 0.986);
     border-radius: 20px;
     border: none;
-    margin:20px;
+    margin: 20px;
 }
-.tree{
+
+.tree {
     background-color: rgba(150, 6, 119, 0.884);
     border-radius: 20px;
     border: none;
-    margin:20px;
+    margin: 20px;
 }
-li, p{
-    color:white;
+
+li,p {
+    color: white;
     font-weight: bold;
 }
-.frase{
+
+.frase {
     padding-left: 100px;
     font-size: 30px;
 }
-.grid{
-    padding-top: 50px;    
+
+.grid {
+    padding-top: 50px;
 }
+
 /* Hiperlinks final da página */
 .links {
     text-align: center;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
 }
-.links, a{
-    margin:20px;
+
+.links,a {
+    margin: 20px;
 }
+
 /* footer */
-.rodape{
+.rodape {
     color: rgb(67, 68, 67);
     text-align: center;
     padding-top: 10px;
     font-size: 10pt;
+}
+
+
+@media screen and(max-width: 315px) {
+
+    header, .container, .logo, .banner {
+        width: auto;               
+    }
+
+    li {
+        text-align: center;
+                
+    }
+
+    .links{
+        position: static;
+    }
 }
