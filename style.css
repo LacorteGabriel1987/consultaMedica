@@ -1,3 +1,4 @@
+/* cabeçalho */
 .container{
     border: 1px solid rgb(194, 186, 186);
     background-color: rgb(248, 245, 241);
@@ -9,14 +10,12 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .title{
-    color:rgb(137, 216, 117);
-    
+    color:rgb(137, 216, 117);    
 }
 .subtitle{
     color:rgb(19, 133, 29);
     margin-top: -30px;
 }
-
 .logo{
     width: 100px;
     height: 100px;
@@ -25,32 +24,30 @@
     padding: 10px;
     margin-left: 90px;    
 }
+/* Os três Banner centrais */
 
 .banner{
-  display:flex;
-  justify-content:baseline;
-  margin-top: 40px;
-  padding-left: 140px;
+    display:flex;
+    justify-content:baseline;
+    margin-top: 40px;
+    padding-left: 140px;
 }
-
 li{
 border: 1px solid black;
-width: 300px;
-height: 300px;
+height: 60vh;
+object-fit: cover;
 border-radius: 20px;
-
+width: 300px;
 }
 
 li, .frase {
-    text-align: center;    
+    text-align: center;
 }
-
 .one{
     background-color: rgb(186, 199, 9);
     border-radius: 20px;
     border: none;
-    margin:20px;
-    
+    margin:20px;    
 }
 .two{
     background-color: rgba(248, 113, 35, 0.986);
@@ -58,24 +55,36 @@ li, .frase {
     border: none;
     margin:20px;
 }
-
 .tree{
     background-color: rgba(150, 6, 119, 0.884);
     border-radius: 20px;
     border: none;
     margin:20px;
 }
-
 li, p{
     color:white;
     font-weight: bold;
 }
-
 .frase{
     padding-left: 100px;
     font-size: 30px;
 }
-
 .grid{
-    padding-top: 20px;    
+    padding-top: 50px;    
+}
+/* Hiperlinks final da página */
+.links {
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+}
+.links, a{
+    margin:20px;
+}
+/* footer */
+.rodape{
+    color: rgb(67, 68, 67);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10pt;
 }
