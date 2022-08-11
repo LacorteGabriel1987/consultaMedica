@@ -1,38 +1,47 @@
 /* cabeçalho */
-
+body{
+    background-color: rgba(216, 225, 231, 0.753);
+}
 .container {
-    display: flex;
+    display: inline-flex;
     border: 1px solid rgb(194, 186, 186);
-    background-color: rgb(58, 145, 51);
+    background-color: rgb(55, 122, 50);
     width: 800px;
-    margin: 0 90px 0px 150px;
-    padding: 40px 0px 0px 200px;
+    margin: 0 10px 0px 150px;
+    padding: 10px 0px 0px 200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 20px 0px 20px 0px;
     border: none;
+    height: 10ch;
 }
+
 .logo {
     display: inline-flex;
     width: 100px;
     height: 100px;
     border-radius: 300px;
-    text-align: center;    
+    
 }
-
+h1, .title{
+    padding-top:20px;
+      
+}
 .title .subtitle{
     padding: 10px;    
 }
 
 .title, .subtitle{
-    display: flex;
+    display: inline-flex;
     color: white;
     font-size: 16pt;
+    vertical-align: text-top;
 }
 
 a, .subtitle, p{
     padding-left: 100px;
+  
+       
 }
-
 .container, a, p{
     color: white;
     text-decoration: none;
