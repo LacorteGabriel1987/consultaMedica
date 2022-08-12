@@ -65,7 +65,7 @@ main{
 }
 
 .principal, .text{
-    font-size: 12pt;
+    font-size: 12pt;    
 }
 
 .text1{
@@ -73,10 +73,21 @@ main{
     margin-top: -25px;
 }
 
+#btn{
+    margin:10px;
+    background-color: rgb(55, 122, 50);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    cursor:pointer;
+    width: 80px;
+    border-radius: 5px;
+}
+
 
 /* footer */
 .rodape {
-    color: rgb(67, 68, 67);
+    color: rgb(96, 100, 96);
     text-align: center;
     padding-top: 10px;
     font-size: 10pt;
