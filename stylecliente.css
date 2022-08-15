@@ -17,22 +17,15 @@ body{
     display: inline-flex;
     width: 100px;
     height: 100px;
-    border-radius: 300px;    
-}
-
-h1, .title{
-    padding-top:20px;      
-}
-
-.title .subtitle{
-    padding: 10px;    
+    border-radius: 300px;
+    margin-left: -80px;    
 }
 
 .title, .subtitle{
     display: inline-flex;
     color: white;
     font-size: 16pt;
-    vertical-align: text-top;
+    padding-top: 10px;
 }
 
 a, .subtitle, p{
@@ -79,13 +72,10 @@ main{
     width: 80px;
     border-radius: 5px;
 }
-
-
 /* footer */
 .rodape {
     color: rgb(204, 224, 204);
-    text-align: center;
-    padding-top: 5px;    
+    padding-top: 5px;
     font-size: 10pt;
     background-color: rgb(55, 122, 50);
     width: 800px;
