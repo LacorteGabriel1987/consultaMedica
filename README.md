@@ -1,7 +1,7 @@
 # consultaMedica
 Projeto visa trabalhar diferentes estruturas de HTML e CSS
 # UNIPED
-Projeto de site desenvolvido com inspiração a Epresa UNIMED BH.
+Projeto de site desenvolvido com inspiração a Empresa UNIMED BH.
 <h1 align="center">Projeto - Uniped </h1>
 
 ## Descrição 
